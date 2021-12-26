@@ -1,7 +1,5 @@
 from selenium.webdriver.common.by import By
 
-from Extentions.UI_actions_web import WebActions
-
 
 class LoginPage:
 
@@ -17,6 +15,3 @@ class LoginPage:
     def get_signin_btn(self):
         return self.driver.find_element(By.XPATH, "//button[@data-test='signin-submit']")
 
-    def insert_data(self, data):
-       # self.get_user_name().send_keys(data)
-        WebActions.insert_text(self, "sdfsdfsf", self.get_user_name())

@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from Utilities.Base import Base
 
 
-class CommonOps(Base):
+class CommonOps:
     # def openWebSession(self, browser):
     #     browser = "chrome"
     #     match browser:
