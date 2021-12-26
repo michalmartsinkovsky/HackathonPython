@@ -1,10 +1,8 @@
-from Utilities.CommonOps import CommonOps
 
-
-class WebActions(CommonOps):
-
-    def insert_text(self, word, element):
+class WebActions:
+    @staticmethod
+    def insert_text(element, word):
         element.send_keys(word)
-
-    def click(self, element):
+    @staticmethod
+    def click(element):
         element.click()

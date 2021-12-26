@@ -1,19 +1,13 @@
-import time
-
 import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
-
-from Pages.Web.login_page import LoginPage
 from Utilities.CommonOps import CommonOps
-
+from Utilities.Manage_pages import Manage_the_pages
 
 driver = None
 action = None
-broswer = CommonOps.get_data("broswer")
-login = None
-
+browser = CommonOps.get_data("browser")
 
 @pytest.fixture(scope='class')
 def init_web(request):
@@ -21,17 +15,17 @@ def init_web(request):
     # globals()['driver'] = driver
     # request.cls.driver = driver
 
-    match broswer:
+    match browser:
         case 'chrome':
             driver = webdriver.Chrome(ChromeDriverManager().install())
             globals()['driver'] = driver
             request.cls.driver = driver
+
             driver.maximize_window()
             driver.get("http://localhost:3000")
-            login = LoginPage(driver)
-            # globals()['login'] = login
-            request.cls.login = login
+
             driver.implicitly_wait(10)
+            Manage_the_pages.initiate_web_pages(driver)
 
         case 'firefox':
             driver = webdriver.Firefox(GeckoDriverManager().install())

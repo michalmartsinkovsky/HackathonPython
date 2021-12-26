@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Environment>
     <url>http://localhost:3000</url>
-    <broswer>chrome</broswer>
+    <browser>chrome</browser>
 </Environment>
