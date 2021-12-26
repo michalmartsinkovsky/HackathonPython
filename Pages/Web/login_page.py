@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class LoginPage:
-    class click_me_page():
+    class login_page():
         def __init__(self, driver):
             self.driver = driver
 
