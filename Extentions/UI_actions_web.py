@@ -6,3 +6,10 @@ class WebActions:
     @staticmethod
     def click(element):
         element.click()
+
+    @staticmethod
+    def get_text(element):
+        print(element.text)
+        return element.text
+
+
