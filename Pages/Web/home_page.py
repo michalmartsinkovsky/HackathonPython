@@ -7,7 +7,6 @@ class HomePage:
         self.driver = driver
 
     def next_btn(self):
-        # //div[3]/div/div[2]/button/span[1]
         return self.driver.find_element_by_xpath("//span[text()='Next']")
 
     def get_bank_name_txt(self):

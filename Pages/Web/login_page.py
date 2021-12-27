@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from Extentions.UI_actions_web import WebActions
+from Extentions.UI_actions_web import UIActions
 
 
 class LoginPage:

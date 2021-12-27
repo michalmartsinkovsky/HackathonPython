@@ -1,5 +1,5 @@
 
-class WebActions:
+class UIActions:
     @staticmethod
     def insert_text(element, word):
         element.send_keys(word)
@@ -9,7 +9,9 @@ class WebActions:
 
     @staticmethod
     def get_text(element):
-        print(element.text)
         return element.text
+
+
+
 
 
