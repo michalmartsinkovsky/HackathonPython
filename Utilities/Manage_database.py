@@ -1,6 +1,4 @@
 import pytest
-
-import test.conftest
 from test import conftest
 
 
@@ -17,9 +15,6 @@ class Manage_db:
         result_arr = result_str.split(",")
         return result_arr       # returning arr of user name (index 0) pass (index 1)
 
-    # driver.find_element(By.XPATH, "//input[@name='username']").send_keys(result_arr[0])
-    # driver.find_element(By.XPATH, "//input[@name='password']").send_keys(result_arr[1])
-    # driver.find_element(By.XPATH, "//input[@id='submit']").click()
-    # time.sleep(1)
+
 
 

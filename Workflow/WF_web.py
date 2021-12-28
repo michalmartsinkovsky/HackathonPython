@@ -1,5 +1,6 @@
 from Extentions.UI_actions_web import UIActions
-from Utilities.Manage_pages import Manage_the_pages
+from Utilities import Manage_pages
+from Utilities.Manage_pages import home_page
 import Utilities
 from test import conftest
 
@@ -35,7 +36,7 @@ class Web_Flow:
 
     @staticmethod
     def click_notification():
-        UIActions.click(Utilities.Manage_pages.home_page.get_notification_btn())
+        UIActions.click(home_page.get_notification_btn())
 
     @staticmethod
     def click_friends():

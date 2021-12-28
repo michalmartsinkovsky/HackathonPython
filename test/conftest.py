@@ -15,13 +15,13 @@ driver = None
 browser = CommonOps.get_data("browser")
 eyes = None
 mydb = None
+# file_users = CommonOps.read_file("C:/HackathonPython/Utilities/users_list.csv")
+creating_users_for_web = None
 @pytest.fixture(scope='class')
 def init_web(request):
     match browser:
         case 'chrome':
             driver = webdriver.Chrome(ChromeDriverManager().install())
-
-            request.cls.driver = driver
 
             driver.maximize_window()
             driver.get("http://localhost:3000")
@@ -38,12 +38,15 @@ def init_web(request):
             raise Exception("no such browser")
     Manage_the_pages.initiate_web_pages(driver)
     globals()['driver'] = driver
-
+    # print(file_users)
+    # file_users = CommonOps.read_file("C:/HackathonPython/Utilities/users_list.csv")
+    # globals()['creating_users_for_web'] = file_users
+    # request.cls.my_user_list = file_users
     eyes = Eyes()
     eyes.api_key = 'lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110'
     globals()['eyes'] = eyes
 
-    # globals()['eyes'] = eyes.api_key = 'lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110'
+
 
     # initiate db
     mydb = mysql.connector.connect(
