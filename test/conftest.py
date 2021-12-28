@@ -13,21 +13,21 @@ from Utilities.Manage_pages import Manage_the_pages
 driver = None
 #action = None
 browser = CommonOps.get_data("browser")
-eyes = Eyes()
+eyes = None
 mydb = None
 @pytest.fixture(scope='class')
 def init_web(request):
     match browser:
         case 'chrome':
             driver = webdriver.Chrome(ChromeDriverManager().install())
-            globals()['driver'] = driver
+
             request.cls.driver = driver
 
             driver.maximize_window()
             driver.get("http://localhost:3000")
 
             driver.implicitly_wait(10)
-            Manage_the_pages.initiate_web_pages(driver)
+
 
         case 'firefox':
             driver = webdriver.Firefox(GeckoDriverManager().install())
@@ -37,9 +37,14 @@ def init_web(request):
         case _:
             raise Exception("no such browser")
     Manage_the_pages.initiate_web_pages(driver)
-    globals()['eyes'] = Eyes()
-    globals()['eyes'].api_key = 'lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110'
-    request.cls.eyes = globals()['eyes']
+    globals()['driver'] = driver
+
+    eyes = Eyes()
+    eyes.api_key = 'lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110'
+    globals()['eyes'] = eyes
+
+    # globals()['eyes'] = eyes.api_key = 'lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110'
+
     # initiate db
     mydb = mysql.connector.connect(
         host="remotemysql.com",  # phpmyadmin/index.php?db=e7qIjyMgHh

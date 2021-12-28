@@ -51,8 +51,6 @@ class Test_web:
         actual = UIActions.get_text(Utilities.Manage_pages.home_page.get_friends_title_txt())
         Verify.verify_equal(actual, "Contacts", "Error- friends title is incorrect")
 
+    # Expecting to fail
     def test_notification_menu(self):
-        Web_Flow.login_entry("Katharina_Bernier", "s3cret")
-        Web_Flow.click_notification()
-        time.sleep(2)
-        Web_Flow.graphic_check("initializing")
+        Web_Flow.graphic_check("initializing", "Comparison")

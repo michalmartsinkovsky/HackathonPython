@@ -1,7 +1,8 @@
 from Extentions.UI_actions_web import UIActions
 from Utilities.Manage_pages import Manage_the_pages
 import Utilities
-from test.conftest import eyes, driver
+from test import conftest
+
 
 
 class Web_Flow:
@@ -45,10 +46,12 @@ class Web_Flow:
         UIActions.click(Utilities.Manage_pages.home_page.get_logout_btn())
 
     @staticmethod
-    def graphic_check(message):
-        eyes.open(driver, "Realworld app", "Notification title test")
-        eyes.check_window(message)
-        eyes.close()
+    def graphic_check(message, message2):
+        conftest.eyes.open(conftest.driver, "Realworld app", "Home title test")
+        conftest.eyes.check_window(message)
+        Web_Flow.click_notification()
+        conftest.eyes.check_window(message2)
+        conftest.eyes.close()
 
 
 
