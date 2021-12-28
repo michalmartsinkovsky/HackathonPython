@@ -2,10 +2,17 @@
 <test_report>
 <info>
 <test_info>
+<<<<<<< Updated upstream
 <test_status>OK</test_status>
 <time_zone>Israel Standard Time</time_zone>
 <run_started>Tue, 28 Dec 2021 20:23:21</run_started>
 <total_time>00:00:22.805</total_time>
+=======
+<test_status>Failed</test_status>
+<time_zone>Israel Standard Time</time_zone>
+<run_started>Tue, 28 Dec 2021 17:29:20</run_started>
+<total_time>00:00:22.357</total_time>
+>>>>>>> Stashed changes
 <project/>
 <user>mmich</user>
 <machine_name>LAPTOP-G06V5CBJ</machine_name>
@@ -54,7 +61,11 @@
 <status>true</status>
 </report>
 <report>
+<<<<<<< Updated upstream
 <text>Writing device log to C:\Users\mmich\AppData\Local\Temp\AppiumStudio\deviceLogs_16407158019666526772590039994420.log</text>
+=======
+<text>Writing device log to C:\Users\mmich\AppData\Local\Temp\AppiumStudio\deviceLogs_16407053625423161614849666908654.log</text>
+>>>>>>> Stashed changes
 <line>Start writing device log for SM-A525M</line>
 <status>true</status>
 </report>
@@ -78,12 +89,17 @@
 </report>
 <report>
 <imageFile>6.PNG</imageFile>
+<<<<<<< Updated upstream
 <text>[{ELEMENT=56}, {ELEMENT=57}, {ELEMENT=58}, {ELEMENT=59}, {ELEMENT=60}, {ELEMENT=61}, {ELEMENT=62}, {ELEMENT=63}, {ELEMENT=64}, {ELEMENT=65}, {ELEMENT=66}, {ELEMENT=67}, {ELEMENT=68}, {ELEMENT=69}, {ELEMENT=70}, {ELEMENT=71}, {ELEMENT=72}, {ELEMENT=73}]</text>
+=======
+<text>[{ELEMENT=35}, {ELEMENT=36}, {ELEMENT=37}, {ELEMENT=38}, {ELEMENT=39}, {ELEMENT=40}, {ELEMENT=41}, {ELEMENT=42}, {ELEMENT=43}, {ELEMENT=44}, {ELEMENT=45}, {ELEMENT=46}, {ELEMENT=47}, {ELEMENT=48}, {ELEMENT=49}, {ELEMENT=50}, {ELEMENT=51}, {ELEMENT=52}]</text>
+>>>>>>> Stashed changes
 <line>Find Elements [xpath,//*[@id='icon']]</line>
 <status>true</status>
 </report>
 <report>
 <imageFile>7.PNG</imageFile>
+<<<<<<< Updated upstream
 <text>{ELEMENT=74}</text>
 <line>Find Element [xpath,//*[@text='Tip Calculator']]</line>
 <status>true</status>
@@ -152,6 +168,14 @@
 </report>
 <report>
 <imageFile>19.PNG</imageFile>
+=======
+<text>{message=An element could not be located on the page using the given search parameters (XPATH='//*[@content-desc='1']')}</text>
+<line>Find Element [xpath,//*[@content-desc='1']]</line>
+<status>false</status>
+</report>
+<report>
+<imageFile>8.PNG</imageFile>
+>>>>>>> Stashed changes
 <line>Quit</line>
 <status>true</status>
 </report>

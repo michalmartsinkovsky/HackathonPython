@@ -2,10 +2,17 @@
 <test_report>
 <info>
 <test_info>
+<<<<<<< Updated upstream
 <test_status>OK</test_status>
 <time_zone>Israel Standard Time</time_zone>
 <run_started>Tue, 28 Dec 2021 20:24:09</run_started>
 <total_time>00:00:22.858</total_time>
+=======
+<test_status>Failed</test_status>
+<time_zone>Israel Standard Time</time_zone>
+<run_started>Tue, 28 Dec 2021 17:34:00</run_started>
+<total_time>00:00:24.384</total_time>
+>>>>>>> Stashed changes
 <project/>
 <user>mmich</user>
 <machine_name>LAPTOP-G06V5CBJ</machine_name>
@@ -54,7 +61,11 @@
 <status>true</status>
 </report>
 <report>
+<<<<<<< Updated upstream
 <text>Writing device log to C:\Users\mmich\AppData\Local\Temp\AppiumStudio\deviceLogs_16407158498956727206324073872447.log</text>
+=======
+<text>Writing device log to C:\Users\mmich\AppData\Local\Temp\AppiumStudio\deviceLogs_16407056420523201668214596306530.log</text>
+>>>>>>> Stashed changes
 <line>Start writing device log for SM-A525M</line>
 <status>true</status>
 </report>
@@ -78,6 +89,7 @@
 </report>
 <report>
 <imageFile>6.PNG</imageFile>
+<<<<<<< Updated upstream
 <text>[{ELEMENT=80}, {ELEMENT=81}, {ELEMENT=82}, {ELEMENT=83}, {ELEMENT=84}, {ELEMENT=85}, {ELEMENT=86}, {ELEMENT=87}, {ELEMENT=88}, {ELEMENT=89}, {ELEMENT=90}, {ELEMENT=91}, {ELEMENT=92}, {ELEMENT=93}, {ELEMENT=94}, {ELEMENT=95}, {ELEMENT=96}, {ELEMENT=97}]</text>
 <line>Find Elements [xpath,//*[@id='icon']]</line>
 <status>true</status>
@@ -152,6 +164,14 @@
 </report>
 <report>
 <imageFile>19.PNG</imageFile>
+=======
+<text>{message=An element could not be located on the page using the given search parameters (XPATH='//*[@content-desc='1']')}</text>
+<line>Find Element [xpath,//*[@content-desc='1']]</line>
+<status>false</status>
+</report>
+<report>
+<imageFile>7.PNG</imageFile>
+>>>>>>> Stashed changes
 <line>Quit</line>
 <status>true</status>
 </report>

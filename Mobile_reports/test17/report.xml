@@ -4,8 +4,13 @@
 <test_info>
 <test_status>OK</test_status>
 <time_zone>Israel Standard Time</time_zone>
+<<<<<<< Updated upstream
 <run_started>Tue, 28 Dec 2021 20:30:54</run_started>
 <total_time>00:00:22.944</total_time>
+=======
+<run_started>Tue, 28 Dec 2021 17:50:23</run_started>
+<total_time>00:00:16.117</total_time>
+>>>>>>> Stashed changes
 <project/>
 <user>mmich</user>
 <machine_name>LAPTOP-G06V5CBJ</machine_name>
@@ -54,7 +59,11 @@
 <status>true</status>
 </report>
 <report>
+<<<<<<< Updated upstream
 <text>Writing device log to C:\Users\mmich\AppData\Local\Temp\AppiumStudio\deviceLogs_16407162556645861461441177088742.log</text>
+=======
+<text>Writing device log to C:\Users\mmich\AppData\Local\Temp\AppiumStudio\deviceLogs_16407066241518438775282142543101.log</text>
+>>>>>>> Stashed changes
 <line>Start writing device log for SM-A525M</line>
 <status>true</status>
 </report>
@@ -78,12 +87,17 @@
 </report>
 <report>
 <imageFile>6.PNG</imageFile>
+<<<<<<< Updated upstream
 <text>[{ELEMENT=104}, {ELEMENT=105}, {ELEMENT=106}, {ELEMENT=107}, {ELEMENT=108}, {ELEMENT=109}, {ELEMENT=110}, {ELEMENT=111}, {ELEMENT=112}, {ELEMENT=113}, {ELEMENT=114}, {ELEMENT=115}, {ELEMENT=116}, {ELEMENT=117}, {ELEMENT=118}, {ELEMENT=119}, {ELEMENT=120}, {ELEMENT=121}]</text>
+=======
+<text>[{ELEMENT=73}, {ELEMENT=74}, {ELEMENT=75}, {ELEMENT=76}, {ELEMENT=77}, {ELEMENT=78}, {ELEMENT=79}, {ELEMENT=80}, {ELEMENT=81}, {ELEMENT=82}, {ELEMENT=83}, {ELEMENT=84}, {ELEMENT=85}, {ELEMENT=86}, {ELEMENT=87}, {ELEMENT=88}, {ELEMENT=89}, {ELEMENT=90}]</text>
+>>>>>>> Stashed changes
 <line>Find Elements [xpath,//*[@id='icon']]</line>
 <status>true</status>
 </report>
 <report>
 <imageFile>7.PNG</imageFile>
+<<<<<<< Updated upstream
 <text>{ELEMENT=122}</text>
 <line>Find Element [xpath,//*[@text='Tip Calculator']]</line>
 <status>true</status>
@@ -152,6 +166,8 @@
 </report>
 <report>
 <imageFile>19.PNG</imageFile>
+=======
+>>>>>>> Stashed changes
 <line>Quit</line>
 <status>true</status>
 </report>
