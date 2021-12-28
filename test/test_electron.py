@@ -1,3 +1,4 @@
+import allure
 import pytest
 import Utilities
 from Extentions.UI_actions_web import UIActions
@@ -7,8 +8,9 @@ from Workflow.WF_electron import Web_Electron
 @pytest.mark.usefixtures('init_electron')
 class Test_electron:
 
+    @allure.title("Sending ping")
+    @allure.description("This test sends ping through the DemoApi App and confirms the message received")
     def test_send_ping_communication_tab(self):
-
         Web_Electron.ping_message()
         expected = "Synchronous message reply: pong"
         actual = UIActions.get_text(Utilities.Manage_pages.electron_home_page.get_ping_msg_txt())

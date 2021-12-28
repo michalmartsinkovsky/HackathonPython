@@ -25,6 +25,8 @@ class Test_mobile:
     #     Verify.verify_equal(actual, expected, "Error- the main title of tip calculator page is different than expected")
 
     # @pytest.mark.dependency(depends=["test_click_tip_calculator"])
+    @allure.title("Calculates tip")
+    @allure.description("This test calculates the tip and verifies its result")
     def test_click_tip_calculator(self):
         Mobile_Flow.move_to_tip_calculator()
         time.sleep(1)
@@ -32,7 +34,7 @@ class Test_mobile:
         actual = UIActions.get_text(Utilities.Manage_pages.mobile_tip_page.tip_calculator_page_title())
         expected = "Tip Calculator"
         Verify.verify_equal(actual, expected, "Error- the main title of tip calculator page is different than expected")
-        Mobile_Flow.insert_bill_payment()
+        Mobile_Flow.insert_bill_mobile()
         time.sleep(1)
         actual = UIActions.get_text(Utilities.Manage_pages.mobile_tip_page.get_total_payment())
         time.sleep(1)

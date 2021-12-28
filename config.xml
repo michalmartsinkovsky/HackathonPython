@@ -30,8 +30,8 @@
    <mobileServer>http://localhost:4723/wd/hub</mobileServer>
 
     <!-- electron info -->
-    <electron_app>C:/automation/Electron API Demos-win32-ia32/Electron API Demos.exe</electron_app>
-    <electron_driver>C:/automation/electrondriver.exe</electron_driver>
+    <electron_app>Electron API Demos.exe</electron_app>
+    <electron_driver>Electron API Demos.exe</electron_driver>
 
 
 

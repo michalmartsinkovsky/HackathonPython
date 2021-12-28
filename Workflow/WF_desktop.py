@@ -1,6 +1,7 @@
 import time
 
 from Extentions.UI_actions_web import UIActions
+from Utilities.CommonOps import Step
 from Utilities.Manage_pages import Manage_the_pages
 import Utilities
 
@@ -8,6 +9,7 @@ import Utilities
 
 class Desktop_Flow:
     @staticmethod
+    @Step ("Addition action")
     def sum(num1, num2, operator):
         UIActions.click(Utilities.Manage_pages.calculator_page.get_num_from_keypad_btn(num1))
         UIActions.click(Utilities.Manage_pages.calculator_page.get_operator_from_keypad_btn(operator))
