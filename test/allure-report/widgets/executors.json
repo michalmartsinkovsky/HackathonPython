@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:9090/",
+  "buildOrder" : 3,
+  "buildName" : "Python- mobile app #3",
+  "buildUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure"
+} ]

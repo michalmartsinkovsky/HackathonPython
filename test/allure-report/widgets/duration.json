@@ -1,0 +1,81 @@
+[ {
+  "uid" : "233decf57e0af16e",
+  "name" : "Sending ping",
+  "time" : {
+    "start" : 1640711316338,
+    "stop" : 1640711319988,
+    "duration" : 3650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24721552c8b425d4",
+  "name" : "Mobile Financial Calculators App- click on Tip Calculator icon",
+  "time" : {
+    "start" : 1640715728515,
+    "stop" : 1640715729811,
+    "duration" : 1296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df17da4f813b713b",
+  "name" : "Mobile Financial Calculators App- counting amount of icons",
+  "time" : {
+    "start" : 1640715727244,
+    "stop" : 1640715727494,
+    "duration" : 250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f379fbf8810029de",
+  "name" : "Getting posts list",
+  "time" : {
+    "start" : 1640714381845,
+    "stop" : 1640714383920,
+    "duration" : 2075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "382bdcfe8ebf4859",
+  "name" : "Desktop calculator perform Addition",
+  "time" : {
+    "start" : 1640713690745,
+    "stop" : 1640713693106,
+    "duration" : 2361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f477f0cc066ff6e9",
+  "name" : "Mobile Financial Calculators App- inserting the bill we got",
+  "time" : {
+    "start" : 1640715730817,
+    "stop" : 1640715734084,
+    "duration" : 3267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2883c539da7808b",
+  "name" : "Deleting a post",
+  "time" : {
+    "start" : 1640714385996,
+    "stop" : 1640714388128,
+    "duration" : 2132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4718f57a9a57d0b",
+  "name" : "Commiting a post",
+  "time" : {
+    "start" : 1640714383924,
+    "stop" : 1640714385993,
+    "duration" : 2069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

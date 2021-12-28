@@ -1,19 +1,21 @@
-from Utilities.CommonOps import Step
+import allure
+
+
 
 
 class UIActions:
     @staticmethod
-    @Step("Insert text")
+    @allure.step("Insert text")
     def insert_text(element, word):
         element.send_keys(word)
 
     @staticmethod
-    @Step("Clicks button")
+    @allure.step("Clicks button")
     def click(element):
         element.click()
 
     @staticmethod
-    @Step("Get text")
+    @allure.step("Get text")
     def get_text(element):
         return element.text
 

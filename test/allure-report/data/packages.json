@@ -1,0 +1,157 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_electron",
+    "children" : [ {
+      "name" : "Sending ping",
+      "uid" : "233decf57e0af16e",
+      "parentUid" : "157f3f739eff4c7ecd69e68c158a2884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "157f3f739eff4c7ecd69e68c158a2884"
+  }, {
+    "name" : "test_desktop",
+    "children" : [ {
+      "name" : "Desktop calculator perform Addition",
+      "uid" : "382bdcfe8ebf4859",
+      "parentUid" : "9a4502ad5a4d50e8ccfb69fdd92c0537",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640713690745,
+        "stop" : 1640713693106,
+        "duration" : 2361
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9a4502ad5a4d50e8ccfb69fdd92c0537"
+  }, {
+    "name" : "test_api",
+    "children" : [ {
+      "name" : "Getting posts list",
+      "uid" : "f379fbf8810029de",
+      "parentUid" : "afb57f624e472244ee6d0bc8eb8e74ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714381845,
+        "stop" : 1640714383920,
+        "duration" : 2075
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Commiting a post",
+      "uid" : "4718f57a9a57d0b",
+      "parentUid" : "afb57f624e472244ee6d0bc8eb8e74ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714383924,
+        "stop" : 1640714385993,
+        "duration" : 2069
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Deleting a post",
+      "uid" : "f2883c539da7808b",
+      "parentUid" : "afb57f624e472244ee6d0bc8eb8e74ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714385996,
+        "stop" : 1640714388128,
+        "duration" : 2132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "afb57f624e472244ee6d0bc8eb8e74ea"
+  }, {
+    "name" : "test_mobile",
+    "children" : [ {
+      "name" : "Mobile Financial Calculators App- counting amount of icons",
+      "uid" : "df17da4f813b713b",
+      "parentUid" : "3ee8124bbfc102b4e93d2ef000877fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640715727244,
+        "stop" : 1640715727494,
+        "duration" : 250
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Mobile Financial Calculators App- click on Tip Calculator icon",
+      "uid" : "24721552c8b425d4",
+      "parentUid" : "3ee8124bbfc102b4e93d2ef000877fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640715728515,
+        "stop" : 1640715729811,
+        "duration" : 1296
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Mobile Financial Calculators App- inserting the bill we got",
+      "uid" : "f477f0cc066ff6e9",
+      "parentUid" : "3ee8124bbfc102b4e93d2ef000877fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640715730817,
+        "stop" : 1640715734084,
+        "duration" : 3267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : true,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ee8124bbfc102b4e93d2ef000877fee"
+  } ]
+}

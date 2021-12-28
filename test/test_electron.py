@@ -5,6 +5,7 @@ from Extentions.UI_actions_web import UIActions
 from Extentions.Verify_actions import Verify
 from Workflow.WF_electron import Web_Electron
 
+
 @pytest.mark.usefixtures('init_electron')
 class Test_electron:
 

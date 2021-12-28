@@ -1,0 +1,389 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-G06V5CBJ",
+    "children" : [ {
+      "name" : "24212-MainThread",
+      "children" : [ {
+        "name" : "Mobile Financial Calculators App- counting amount of icons",
+        "uid" : "df17da4f813b713b",
+        "parentUid" : "49f64ebe5369ce32619b42d43eff2661",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640715727244,
+          "stop" : 1640715727494,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Mobile Financial Calculators App- click on Tip Calculator icon",
+        "uid" : "24721552c8b425d4",
+        "parentUid" : "49f64ebe5369ce32619b42d43eff2661",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640715728515,
+          "stop" : 1640715729811,
+          "duration" : 1296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Mobile Financial Calculators App- inserting the bill we got",
+        "uid" : "f477f0cc066ff6e9",
+        "parentUid" : "49f64ebe5369ce32619b42d43eff2661",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640715730817,
+          "stop" : 1640715734084,
+          "duration" : 3267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : true,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49f64ebe5369ce32619b42d43eff2661"
+    }, {
+      "name" : "22920-MainThread",
+      "children" : [ {
+        "name" : "test_number_of_icons",
+        "uid" : "2202ef9b5df77e06",
+        "parentUid" : "b54634d6967d00e4feb9401eda90601f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640715155909,
+          "stop" : 1640715156263,
+          "duration" : 354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_insert_bill",
+        "uid" : "3b731723b913f2ca",
+        "parentUid" : "b54634d6967d00e4feb9401eda90601f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640715159628,
+          "stop" : 1640715159628,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_click_tip_calculator",
+        "uid" : "b935f35ca324e61d",
+        "parentUid" : "b54634d6967d00e4feb9401eda90601f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640715157272,
+          "stop" : 1640715158609,
+          "duration" : 1337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b54634d6967d00e4feb9401eda90601f"
+    }, {
+      "name" : "34740-MainThread",
+      "children" : [ {
+        "name" : "test_click_tip_calculator",
+        "uid" : "a0626f32e76e8c99",
+        "parentUid" : "9a2e86d2bb748e1a997a8bae54e5fe31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640714957131,
+          "stop" : 1640714957515,
+          "duration" : 384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_number_of_icons",
+        "uid" : "43c6bcdad8df34c1",
+        "parentUid" : "9a2e86d2bb748e1a997a8bae54e5fe31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640714955786,
+          "stop" : 1640714955786,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_insert_bill",
+        "uid" : "1a0896d556fd9ba4",
+        "parentUid" : "9a2e86d2bb748e1a997a8bae54e5fe31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640714958527,
+          "stop" : 1640714958528,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a2e86d2bb748e1a997a8bae54e5fe31"
+    }, {
+      "name" : "30044-MainThread",
+      "children" : [ {
+        "name" : "Addition",
+        "uid" : "98886e8c3860bc80",
+        "parentUid" : "2f0f9d17120ea54bdb7acf3e5f9c4bfe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640712019956,
+          "stop" : 1640712019956,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f0f9d17120ea54bdb7acf3e5f9c4bfe"
+    }, {
+      "name" : "6364-MainThread",
+      "children" : [ {
+        "name" : "Getting posts list",
+        "uid" : "f379fbf8810029de",
+        "parentUid" : "f4e407e87d0a17a969d1d20ae2faee42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640714381845,
+          "stop" : 1640714383920,
+          "duration" : 2075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Deleting a post",
+        "uid" : "f2883c539da7808b",
+        "parentUid" : "f4e407e87d0a17a969d1d20ae2faee42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640714385996,
+          "stop" : 1640714388128,
+          "duration" : 2132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Commiting a post",
+        "uid" : "4718f57a9a57d0b",
+        "parentUid" : "f4e407e87d0a17a969d1d20ae2faee42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640714383924,
+          "stop" : 1640714385993,
+          "duration" : 2069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4e407e87d0a17a969d1d20ae2faee42"
+    }, {
+      "name" : "34580-MainThread",
+      "children" : [ {
+        "name" : "Addition",
+        "uid" : "23e0435648bf76b4",
+        "parentUid" : "b10a21bcb0bc24ebd264a477e9cd76a4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640712174110,
+          "stop" : 1640712174110,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b10a21bcb0bc24ebd264a477e9cd76a4"
+    }, {
+      "name" : "1140-MainThread",
+      "children" : [ {
+        "name" : "Desktop calculator perform Addition",
+        "uid" : "382bdcfe8ebf4859",
+        "parentUid" : "037378ed38150a1132333d75157629b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640713690745,
+          "stop" : 1640713693106,
+          "duration" : 2361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "037378ed38150a1132333d75157629b6"
+    }, {
+      "name" : "27312-MainThread",
+      "children" : [ {
+        "name" : "Sending ping",
+        "uid" : "233decf57e0af16e",
+        "parentUid" : "d693e9eaffc61674e6ce513a661702d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640711316338,
+          "stop" : 1640711319988,
+          "duration" : 3650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d693e9eaffc61674e6ce513a661702d0"
+    }, {
+      "name" : "19804-MainThread",
+      "children" : [ {
+        "name" : "Desktop calculator perform Addition",
+        "uid" : "eba0ad3fd3ac1648",
+        "parentUid" : "e40c4cf503dd7f49a433cd9ffcd99549",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640712471653,
+          "stop" : 1640712471653,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e40c4cf503dd7f49a433cd9ffcd99549"
+    }, {
+      "name" : "19600-MainThread",
+      "children" : [ {
+        "name" : "Commiting a post",
+        "uid" : "c355acaba0acbb4f",
+        "parentUid" : "472ad89c7213be69c6615763da3a8133",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640714269441,
+          "stop" : 1640714271556,
+          "duration" : 2115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Deleting a post",
+        "uid" : "b97a956bbb82e651",
+        "parentUid" : "472ad89c7213be69c6615763da3a8133",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640714271562,
+          "stop" : 1640714273785,
+          "duration" : 2223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Getting posts list",
+        "uid" : "14e35ca22cfa94ca",
+        "parentUid" : "472ad89c7213be69c6615763da3a8133",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640714266834,
+          "stop" : 1640714268958,
+          "duration" : 2124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "472ad89c7213be69c6615763da3a8133"
+    } ],
+    "uid" : "49c3b96121ac18b36c51c3d7371b6cd2"
+  } ]
+}

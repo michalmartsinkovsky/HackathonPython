@@ -1,12 +1,13 @@
+import allure
 import pytest
 
-from Utilities.CommonOps import Step
+
 from test import conftest
 
 
 @pytest.mark.usefixtures('init_web')
 class Manage_db:
-    @Step ("Getting data from DB")
+    @allure.step("Getting data from DB")
     def get_data_from_db():
         query = "SELECT * FROM users_real_world"
         my_cursor = conftest.mydb.cursor()

@@ -1,0 +1,426 @@
+{
+  "uid" : "382bdcfe8ebf4859",
+  "name" : "Desktop calculator perform Addition",
+  "fullName" : "test_desktop.Test_calculator#test_operation_on_calc_app",
+  "historyId" : "d307a95a6d44e1d3e36407b673460320",
+  "time" : {
+    "start" : 1640713690745,
+    "stop" : 1640713693106,
+    "duration" : 2361
+  },
+  "description" : "This test makes an addition calculation and verifies the result",
+  "descriptionHtml" : "<p>This test makes an addition calculation and verifies the result</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "init_desktop",
+    "time" : {
+      "start" : 1640713689306,
+      "stop" : 1640713690740,
+      "duration" : 1434
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Getting data from the configuration file",
+      "time" : {
+        "start" : 1640713689306,
+        "stop" : 1640713689308,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "node_name",
+        "value" : "'app'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Getting data from the configuration file",
+      "time" : {
+        "start" : 1640713689308,
+        "stop" : 1640713689308,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "node_name",
+        "value" : "'platformName'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Getting data from the configuration file",
+      "time" : {
+        "start" : 1640713689308,
+        "stop" : 1640713689308,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "node_name",
+        "value" : "'deviceName'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Getting data from the configuration file",
+      "time" : {
+        "start" : 1640713689309,
+        "stop" : 1640713689309,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "node_name",
+        "value" : "'desktopServer'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Initiates desktop pages",
+      "time" : {
+        "start" : 1640713690740,
+        "stop" : 1640713690740,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.remote.webdriver.WebDriver (session=\"D8083396-C5EF-4846-B43B-CE3073105649\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  } ],
+  "testStage" : {
+    "description" : "This test makes an addition calculation and verifies the result",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Addition action",
+      "time" : {
+        "start" : 1640713690745,
+        "stop" : 1640713692588,
+        "duration" : 1843
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicks button",
+        "time" : {
+          "start" : 1640713690939,
+          "stop" : 1640713691248,
+          "duration" : 309
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"D8083396-C5EF-4846-B43B-CE3073105649\", element=\"42.17959188.4.91\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicks button",
+        "time" : {
+          "start" : 1640713691396,
+          "stop" : 1640713691722,
+          "duration" : 326
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"D8083396-C5EF-4846-B43B-CE3073105649\", element=\"42.17959188.4.86\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicks button",
+        "time" : {
+          "start" : 1640713691860,
+          "stop" : 1640713692164,
+          "duration" : 304
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"D8083396-C5EF-4846-B43B-CE3073105649\", element=\"42.17959188.4.102\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicks button",
+        "time" : {
+          "start" : 1640713692304,
+          "stop" : 1640713692588,
+          "duration" : 284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"D8083396-C5EF-4846-B43B-CE3073105649\", element=\"42.17959188.4.88\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "num1",
+        "value" : "'1'"
+      }, {
+        "name" : "num2",
+        "value" : "'5'"
+      }, {
+        "name" : "operator",
+        "value" : "'Plus'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Get text",
+      "time" : {
+        "start" : 1640713693055,
+        "stop" : 1640713693105,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"D8083396-C5EF-4846-B43B-CE3073105649\", element=\"42.17959188.4.1\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify equal",
+      "time" : {
+        "start" : 1640713693106,
+        "stop" : 1640713693106,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "'Display is 6'"
+      }, {
+        "name" : "expected",
+        "value" : "'Display is 6'"
+      }, {
+        "name" : "msg",
+        "value" : "'Error- the expected sum is incorrect'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "init_desktop::0",
+    "time" : {
+      "start" : 1640713693106,
+      "stop" : 1640713693175,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_desktop')"
+  }, {
+    "name" : "suite",
+    "value" : "test_desktop"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_calculator"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-G06V5CBJ"
+  }, {
+    "name" : "thread",
+    "value" : "1140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_desktop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eba0ad3fd3ac1648",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+      "time" : {
+        "start" : 1640712471653,
+        "stop" : 1640712471653,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "23e0435648bf76b4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+      "time" : {
+        "start" : 1640712174110,
+        "stop" : 1640712174110,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "98886e8c3860bc80",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+      "time" : {
+        "start" : 1640712019956,
+        "stop" : 1640712019956,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "378cfb7024ae170",
+        "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/378cfb7024ae170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640713690745,
+          "stop" : 1640713693106,
+          "duration" : 2361
+        }
+      }, {
+        "uid" : "45af8b6a392fd8ad",
+        "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/45af8b6a392fd8ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640713690745,
+          "stop" : 1640713693106,
+          "duration" : 2361
+        }
+      }, {
+        "uid" : "dc865362f36a576",
+        "reportUrl" : "http://localhost:9090/job/Python%20api/1/allure/#testresult/dc865362f36a576",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640713690745,
+          "stop" : 1640713693106,
+          "duration" : 2361
+        }
+      }, {
+        "uid" : "aae747692a6cdee6",
+        "reportUrl" : "http://localhost:9090/job/Desktop/4/allure/#testresult/aae747692a6cdee6",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+        "time" : {
+          "start" : 1640712471653,
+          "stop" : 1640712471653,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9f6b591cdb38c84f",
+        "reportUrl" : "http://localhost:9090/job/Desktop/3/allure/#testresult/9f6b591cdb38c84f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+        "time" : {
+          "start" : 1640712174110,
+          "stop" : 1640712174110,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "394697af255634ce",
+        "reportUrl" : "http://localhost:9090/job/Desktop/2/allure/#testresult/394697af255634ce",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+        "time" : {
+          "start" : 1640712019956,
+          "stop" : 1640712019956,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('init_desktop')" ]
+  },
+  "source" : "382bdcfe8ebf4859.json",
+  "parameterValues" : [ ]
+}

@@ -30,10 +30,7 @@
    <mobileServer>http://localhost:4723/wd/hub</mobileServer>
 
     <!-- electron info -->
-    <electron_app>Electron API Demos.exe</electron_app>
-    <electron_driver>Electron API Demos.exe</electron_driver>
-
-
-
+    <electron_app>C:\HackathonPython\Electron API Demos-win32-ia32\Electron API Demos.exe</electron_app>
+    <electron_driver>C:\HackathonPython\electrondriver.exe</electron_driver>
 
 </Environment>

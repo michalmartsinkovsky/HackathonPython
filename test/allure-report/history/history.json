@@ -1,0 +1,424 @@
+{
+  "d307a95a6d44e1d3e36407b673460320" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "382bdcfe8ebf4859",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure/#testresult/382bdcfe8ebf4859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640713690745,
+        "stop" : 1640713693106,
+        "duration" : 2361
+      }
+    }, {
+      "uid" : "378cfb7024ae170",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/378cfb7024ae170",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640713690745,
+        "stop" : 1640713693106,
+        "duration" : 2361
+      }
+    }, {
+      "uid" : "45af8b6a392fd8ad",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/45af8b6a392fd8ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640713690745,
+        "stop" : 1640713693106,
+        "duration" : 2361
+      }
+    }, {
+      "uid" : "dc865362f36a576",
+      "reportUrl" : "http://localhost:9090/job/Python%20api/1/allure/#testresult/dc865362f36a576",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640713690745,
+        "stop" : 1640713693106,
+        "duration" : 2361
+      }
+    }, {
+      "uid" : "aae747692a6cdee6",
+      "reportUrl" : "http://localhost:9090/job/Desktop/4/allure/#testresult/aae747692a6cdee6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+      "time" : {
+        "start" : 1640712471653,
+        "stop" : 1640712471653,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9f6b591cdb38c84f",
+      "reportUrl" : "http://localhost:9090/job/Desktop/3/allure/#testresult/9f6b591cdb38c84f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+      "time" : {
+        "start" : 1640712174110,
+        "stop" : 1640712174110,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "394697af255634ce",
+      "reportUrl" : "http://localhost:9090/job/Desktop/2/allure/#testresult/394697af255634ce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: <html>\n<head>\n   <title>Status page</title>\n</head>\n<body style=\"font-family: sans-serif;\">\n<p style=\"font-size: 1.2em;font-weight: bold;margin: 1em 0px;\">Not Found</p>\n<p>The server has not found anything matching the request URI</p>\n<p>You can get technical details <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5\">here</a>.<br>\nPlease continue your visit at our <a href=\"/\">home page</a>.\n</p>\n</body>\n</html>",
+      "time" : {
+        "start" : 1640712019956,
+        "stop" : 1640712019956,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9ab70f28c442db05e04880e6805f9e47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "f379fbf8810029de",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure/#testresult/f379fbf8810029de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714381845,
+        "stop" : 1640714383920,
+        "duration" : 2075
+      }
+    }, {
+      "uid" : "5a49c6893861e456",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/5a49c6893861e456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714381845,
+        "stop" : 1640714383920,
+        "duration" : 2075
+      }
+    }, {
+      "uid" : "44933035660e02bd",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/44933035660e02bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714381845,
+        "stop" : 1640714383920,
+        "duration" : 2075
+      }
+    }, {
+      "uid" : "3924bf6035e6bca",
+      "reportUrl" : "http://localhost:9090/job/Python%20api/1/allure/#testresult/3924bf6035e6bca",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Verify.verify_equal() takes 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1640714266834,
+        "stop" : 1640714268958,
+        "duration" : 2124
+      }
+    } ]
+  },
+  "573dabf7f016509ab32c282b28f885e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "df17da4f813b713b",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure/#testresult/df17da4f813b713b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640715727244,
+        "stop" : 1640715727494,
+        "duration" : 250
+      }
+    }, {
+      "uid" : "e48f7549553a2d6a",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/e48f7549553a2d6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640715155909,
+        "stop" : 1640715156263,
+        "duration" : 354
+      }
+    }, {
+      "uid" : "2e273f6cda8c294e",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/2e273f6cda8c294e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'MobileStartPage' object has no attribute 'get_list_of_icons_in_start_page'",
+      "time" : {
+        "start" : 1640714955786,
+        "stop" : 1640714955786,
+        "duration" : 0
+      }
+    } ]
+  },
+  "723ea7ca5dd4f3f9dc35fbf592e3d6f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "233decf57e0af16e",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure/#testresult/233decf57e0af16e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      }
+    }, {
+      "uid" : "f49b69340de39237",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/f49b69340de39237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      }
+    }, {
+      "uid" : "ff0db6e598313f88",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/ff0db6e598313f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      }
+    }, {
+      "uid" : "441c8926533ed862",
+      "reportUrl" : "http://localhost:9090/job/Python%20api/1/allure/#testresult/441c8926533ed862",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      }
+    }, {
+      "uid" : "497c9c53000c16ae",
+      "reportUrl" : "http://localhost:9090/job/Desktop/4/allure/#testresult/497c9c53000c16ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      }
+    }, {
+      "uid" : "adec2de2759763d1",
+      "reportUrl" : "http://localhost:9090/job/Desktop/3/allure/#testresult/adec2de2759763d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      }
+    }, {
+      "uid" : "e2d7955e4d828768",
+      "reportUrl" : "http://localhost:9090/job/Desktop/2/allure/#testresult/e2d7955e4d828768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      }
+    }, {
+      "uid" : "c07e0f5c96b1d32c",
+      "reportUrl" : "http://localhost:9090/job/Desktop/1/allure/#testresult/c07e0f5c96b1d32c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640711316338,
+        "stop" : 1640711319988,
+        "duration" : 3650
+      }
+    } ]
+  },
+  "d6c3fc853cd177aa96f4afd17a1cfed4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "4718f57a9a57d0b",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure/#testresult/4718f57a9a57d0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714383924,
+        "stop" : 1640714385993,
+        "duration" : 2069
+      }
+    }, {
+      "uid" : "ac741f7d28d0e0cd",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/ac741f7d28d0e0cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714383924,
+        "stop" : 1640714385993,
+        "duration" : 2069
+      }
+    }, {
+      "uid" : "77e8d543be555e2b",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/77e8d543be555e2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714383924,
+        "stop" : 1640714385993,
+        "duration" : 2069
+      }
+    }, {
+      "uid" : "1c0cfe1c775069a0",
+      "reportUrl" : "http://localhost:9090/job/Python%20api/1/allure/#testresult/1c0cfe1c775069a0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Verify.verify_equal() takes 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1640714269441,
+        "stop" : 1640714271556,
+        "duration" : 2115
+      }
+    } ]
+  },
+  "0d0cacc2a290905f09a20a9508697aab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "24721552c8b425d4",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure/#testresult/24721552c8b425d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640715728515,
+        "stop" : 1640715729811,
+        "duration" : 1296
+      }
+    }, {
+      "uid" : "ee22c694710b00f5",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/ee22c694710b00f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640715157272,
+        "stop" : 1640715158609,
+        "duration" : 1337
+      }
+    }, {
+      "uid" : "8ae489eb3e0ca049",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/8ae489eb3e0ca049",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'TipCalculatorPage' object has no attribute 'tip_calculator_page_title'",
+      "time" : {
+        "start" : 1640714957131,
+        "stop" : 1640714957515,
+        "duration" : 384
+      }
+    } ]
+  },
+  "e313838d1b57d9d0284632728f91d24c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "f477f0cc066ff6e9",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure/#testresult/f477f0cc066ff6e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640715730817,
+        "stop" : 1640715734084,
+        "duration" : 3267
+      }
+    }, {
+      "uid" : "ab9803e9290db3d5",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/ab9803e9290db3d5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Mobile_Flow' has no attribute 'insert_bill_payment'",
+      "time" : {
+        "start" : 1640715159628,
+        "stop" : 1640715159628,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "72c0c8c2238fa270",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/72c0c8c2238fa270",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Mobile_Flow' has no attribute 'insert_bill_payment'",
+      "time" : {
+        "start" : 1640714958527,
+        "stop" : 1640714958528,
+        "duration" : 1
+      }
+    } ]
+  },
+  "42e6595c137c3654fe1807c6c8d5e7be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "f2883c539da7808b",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/3/allure/#testresult/f2883c539da7808b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714385996,
+        "stop" : 1640714388128,
+        "duration" : 2132
+      }
+    }, {
+      "uid" : "6689a71878d3ea69",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/6689a71878d3ea69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714385996,
+        "stop" : 1640714388128,
+        "duration" : 2132
+      }
+    }, {
+      "uid" : "2e0d7a900844a2bf",
+      "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/2e0d7a900844a2bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640714385996,
+        "stop" : 1640714388128,
+        "duration" : 2132
+      }
+    }, {
+      "uid" : "75fc2d329c37e3af",
+      "reportUrl" : "http://localhost:9090/job/Python%20api/1/allure/#testresult/75fc2d329c37e3af",
+      "status" : "broken",
+      "statusDetails" : "TypeError: Verify.verify_equal() takes 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1640714271562,
+        "stop" : 1640714273785,
+        "duration" : 2223
+      }
+    } ]
+  }
+}

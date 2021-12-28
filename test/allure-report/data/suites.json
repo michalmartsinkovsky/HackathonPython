@@ -1,0 +1,173 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_electron",
+    "children" : [ {
+      "name" : "Test_electron",
+      "children" : [ {
+        "name" : "Sending ping",
+        "uid" : "233decf57e0af16e",
+        "parentUid" : "76e0701e5e5918ed7c1f6a7c6d848062",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640711316338,
+          "stop" : 1640711319988,
+          "duration" : 3650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "76e0701e5e5918ed7c1f6a7c6d848062"
+    } ],
+    "uid" : "2c493556929c7bbec9b1340ac5936194"
+  }, {
+    "name" : "test_desktop",
+    "children" : [ {
+      "name" : "Test_calculator",
+      "children" : [ {
+        "name" : "Desktop calculator perform Addition",
+        "uid" : "382bdcfe8ebf4859",
+        "parentUid" : "3af4ad2b368fbe065240db24482b7e0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640713690745,
+          "stop" : 1640713693106,
+          "duration" : 2361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3af4ad2b368fbe065240db24482b7e0c"
+    } ],
+    "uid" : "772605461c9588bb6e00cbab29ef4f1b"
+  }, {
+    "name" : "test_api",
+    "children" : [ {
+      "name" : "Test_json_server_api",
+      "children" : [ {
+        "name" : "Getting posts list",
+        "uid" : "f379fbf8810029de",
+        "parentUid" : "6becc131a042bf2e9bb4d7af0ea5b84c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640714381845,
+          "stop" : 1640714383920,
+          "duration" : 2075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Commiting a post",
+        "uid" : "4718f57a9a57d0b",
+        "parentUid" : "6becc131a042bf2e9bb4d7af0ea5b84c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640714383924,
+          "stop" : 1640714385993,
+          "duration" : 2069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Deleting a post",
+        "uid" : "f2883c539da7808b",
+        "parentUid" : "6becc131a042bf2e9bb4d7af0ea5b84c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640714385996,
+          "stop" : 1640714388128,
+          "duration" : 2132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6becc131a042bf2e9bb4d7af0ea5b84c"
+    } ],
+    "uid" : "1909346d716315b605b14bcb10204a8d"
+  }, {
+    "name" : "test_mobile",
+    "children" : [ {
+      "name" : "Test_mobile",
+      "children" : [ {
+        "name" : "Mobile Financial Calculators App- counting amount of icons",
+        "uid" : "df17da4f813b713b",
+        "parentUid" : "2ec5366a01b585be13509604ff29dcb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640715727244,
+          "stop" : 1640715727494,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Mobile Financial Calculators App- click on Tip Calculator icon",
+        "uid" : "24721552c8b425d4",
+        "parentUid" : "2ec5366a01b585be13509604ff29dcb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640715728515,
+          "stop" : 1640715729811,
+          "duration" : 1296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Mobile Financial Calculators App- inserting the bill we got",
+        "uid" : "f477f0cc066ff6e9",
+        "parentUid" : "2ec5366a01b585be13509604ff29dcb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640715730817,
+          "stop" : 1640715734084,
+          "duration" : 3267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : true,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ec5366a01b585be13509604ff29dcb5"
+    } ],
+    "uid" : "7761f850a2575fb49d6476968ad57b0a"
+  } ]
+}

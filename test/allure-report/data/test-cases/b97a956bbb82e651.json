@@ -1,0 +1,146 @@
+{
+  "uid" : "b97a956bbb82e651",
+  "name" : "Deleting a post",
+  "fullName" : "test_api.Test_json_server_api#test_delete",
+  "historyId" : "42e6595c137c3654fe1807c6c8d5e7be",
+  "time" : {
+    "start" : 1640714271562,
+    "stop" : 1640714273785,
+    "duration" : 2223
+  },
+  "description" : "This test deletes a post and verifies the response sent back is 200",
+  "descriptionHtml" : "<p>This test deletes a post and verifies the response sent back is 200</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: Verify.verify_equal() takes 3 positional arguments but 4 were given",
+  "statusTrace" : "self = <test.test_api.Test_json_server_api object at 0x00000209775CBFA0>\n\n    @allure.title(\"Deleting a post\")\n    @allure.description(\"This test deletes a post and verifies the response sent back is 200\")\n    def test_delete(self):\n        result = WF_api.delete_post(WF_api(), self.url, \"posts/1111\", self.header)\n>       Verify.verify_equal(self, result, 200, \"Error- deletion wasn't made\")\nE       TypeError: Verify.verify_equal() takes 3 positional arguments but 4 were given\n\ntest_api.py:35: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "This test deletes a post and verifies the response sent back is 200",
+    "status" : "broken",
+    "statusMessage" : "TypeError: Verify.verify_equal() takes 3 positional arguments but 4 were given",
+    "statusTrace" : "self = <test.test_api.Test_json_server_api object at 0x00000209775CBFA0>\n\n    @allure.title(\"Deleting a post\")\n    @allure.description(\"This test deletes a post and verifies the response sent back is 200\")\n    def test_delete(self):\n        result = WF_api.delete_post(WF_api(), self.url, \"posts/1111\", self.header)\n>       Verify.verify_equal(self, result, 200, \"Error- deletion wasn't made\")\nE       TypeError: Verify.verify_equal() takes 3 positional arguments but 4 were given\n\ntest_api.py:35: TypeError",
+    "steps" : [ {
+      "name" : "Deletes a post",
+      "time" : {
+        "start" : 1640714271562,
+        "stop" : 1640714273785,
+        "duration" : 2223
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Delete from API server",
+        "time" : {
+          "start" : 1640714271562,
+          "stop" : 1640714273785,
+          "duration" : 2223
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "'http://localhost:3000/'"
+        }, {
+          "name" : "source",
+          "value" : "'posts/1111'"
+        }, {
+          "name" : "header",
+          "value" : "{'Content-type': 'application/json'}"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://localhost:3000/'"
+      }, {
+        "name" : "source",
+        "value" : "'posts/1111'"
+      }, {
+        "name" : "header",
+        "value" : "{'Content-type': 'application/json'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Verify equal",
+      "time" : {
+        "start" : 1640714273785,
+        "stop" : 1640714273785,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Verify.verify_equal() takes 3 positional arguments but 4 were given\n",
+      "statusTrace" : "  File \"C:\\Users\\mmich\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "<test.test_api.Test_json_server_api object at 0x00000209775CBFA0>"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      }, {
+        "name" : "msg",
+        "value" : "200"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_json_server_api"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-G06V5CBJ"
+  }, {
+    "name" : "thread",
+    "value" : "19600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b97a956bbb82e651.json",
+  "parameterValues" : [ ]
+}

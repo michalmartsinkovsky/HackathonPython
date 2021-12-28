@@ -1,0 +1,50 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3843290
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3642190
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Python%20api/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2957447
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:9090/job/Desktop/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1155315
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:9090/job/Desktop/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 857772
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/Desktop/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 703618
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Desktop/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3650
+  }
+} ]

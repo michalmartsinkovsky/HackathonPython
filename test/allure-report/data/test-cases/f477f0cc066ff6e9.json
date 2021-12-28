@@ -1,0 +1,365 @@
+{
+  "uid" : "f477f0cc066ff6e9",
+  "name" : "Mobile Financial Calculators App- inserting the bill we got",
+  "fullName" : "test_mobile.Test_mobile#test_insert_bill",
+  "historyId" : "e313838d1b57d9d0284632728f91d24c",
+  "time" : {
+    "start" : 1640715730817,
+    "stop" : 1640715734084,
+    "duration" : 3267
+  },
+  "description" : "This test calculates the 15% tip added to our bill and verifies the result",
+  "descriptionHtml" : "<p>This test calculates the 15% tip added to our bill and verifies the result</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "init_mobile",
+    "time" : {
+      "start" : 1640715711024,
+      "stop" : 1640715727240,
+      "duration" : 16216
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Getting data from the configuration file",
+      "time" : {
+        "start" : 1640715711024,
+        "stop" : 1640715711026,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "node_name",
+        "value" : "'reportDirectory'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Getting data from the configuration file",
+      "time" : {
+        "start" : 1640715711026,
+        "stop" : 1640715711026,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "node_name",
+        "value" : "'reportFormat'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Getting data from the configuration file",
+      "time" : {
+        "start" : 1640715711026,
+        "stop" : 1640715711027,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "node_name",
+        "value" : "'testName'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Initiates mobile pages",
+      "time" : {
+        "start" : 1640715727240,
+        "stop" : 1640715727240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.remote.webdriver.WebDriver (session=\"34f5f7b0-5785-41bb-ba89-900b4c171cdb\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  }, {
+    "name" : "xunit_setup_method_fixture_Test_mobile",
+    "time" : {
+      "start" : 1640715730817,
+      "stop" : 1640715730817,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test calculates the 15% tip added to our bill and verifies the result",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Insert bill amount",
+      "time" : {
+        "start" : 1640715730817,
+        "stop" : 1640715733402,
+        "duration" : 2585
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clicks button",
+        "time" : {
+          "start" : 1640715731638,
+          "stop" : 1640715731774,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"34f5f7b0-5785-41bb-ba89-900b4c171cdb\", element=\"52\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicks button",
+        "time" : {
+          "start" : 1640715732551,
+          "stop" : 1640715732738,
+          "duration" : 187
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"34f5f7b0-5785-41bb-ba89-900b4c171cdb\", element=\"53\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Clicks button",
+        "time" : {
+          "start" : 1640715733259,
+          "stop" : 1640715733402,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"34f5f7b0-5785-41bb-ba89-900b4c171cdb\", element=\"54\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Get text",
+      "time" : {
+        "start" : 1640715733992,
+        "stop" : 1640715734084,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"34f5f7b0-5785-41bb-ba89-900b4c171cdb\", element=\"55\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify equal",
+      "time" : {
+        "start" : 1640715734084,
+        "stop" : 1640715734084,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "'115.00'"
+      }, {
+        "name" : "expected",
+        "value" : "'115.00'"
+      }, {
+        "name" : "msg",
+        "value" : "'Error- the payment + 15% tax is different than expected'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_Test_mobile::0",
+    "time" : {
+      "start" : 1640715734085,
+      "stop" : 1640715735091,
+      "duration" : 1006
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "init_mobile::0",
+    "time" : {
+      "start" : 1640715735092,
+      "stop" : 1640715737922,
+      "duration" : 2830
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_mobile')"
+  }, {
+    "name" : "suite",
+    "value" : "test_mobile"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_mobile"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-G06V5CBJ"
+  }, {
+    "name" : "thread",
+    "value" : "24212-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mobile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b731723b913f2ca",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Mobile_Flow' has no attribute 'insert_bill_payment'",
+      "time" : {
+        "start" : 1640715159628,
+        "stop" : 1640715159628,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1a0896d556fd9ba4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Mobile_Flow' has no attribute 'insert_bill_payment'",
+      "time" : {
+        "start" : 1640714958527,
+        "stop" : 1640714958528,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ab9803e9290db3d5",
+        "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/2/allure/#testresult/ab9803e9290db3d5",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: type object 'Mobile_Flow' has no attribute 'insert_bill_payment'",
+        "time" : {
+          "start" : 1640715159628,
+          "stop" : 1640715159628,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "72c0c8c2238fa270",
+        "reportUrl" : "http://localhost:9090/job/Python%20mobile%20(Financial%20Calculators%20app)/1/allure/#testresult/72c0c8c2238fa270",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: type object 'Mobile_Flow' has no attribute 'insert_bill_payment'",
+        "time" : {
+          "start" : 1640714958527,
+          "stop" : 1640714958528,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('init_mobile')" ]
+  },
+  "source" : "f477f0cc066ff6e9.json",
+  "parameterValues" : [ ]
+}

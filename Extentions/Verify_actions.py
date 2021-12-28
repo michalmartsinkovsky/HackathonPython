@@ -1,14 +1,14 @@
-from Utilities.CommonOps import Step
+import allure
 
 
 class Verify:
 
     @staticmethod
-    @Step("Verify equal")
+    @allure.step("Verify equal")
     def verify_equal(actual, expected, msg):
         assert actual == expected, msg
 
-    @Step("Verify true")
+    @allure.step("Verify true")
     @staticmethod
     def verify_true(actual):
         assert actual
