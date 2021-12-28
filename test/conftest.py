@@ -1,3 +1,6 @@
+import time
+
+import mysql.connector
 import pytest
 from applitools.selenium import Eyes
 from selenium import webdriver
@@ -11,7 +14,7 @@ driver = None
 #action = None
 browser = CommonOps.get_data("browser")
 eyes = Eyes()
-
+mydb = None
 @pytest.fixture(scope='class')
 def init_web(request):
     match browser:
@@ -34,10 +37,21 @@ def init_web(request):
         case _:
             raise Exception("no such browser")
     Manage_the_pages.initiate_web_pages(driver)
-    # globals()['eyes'] = Eyes()
-    eyes.api_key = 'lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110'
-    request.cls.eyes = Eyes()
+    globals()['eyes'] = Eyes()
+    globals()['eyes'].api_key = 'lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110'
+    request.cls.eyes = globals()['eyes']
+    # initiate db
+    mydb = mysql.connector.connect(
+        host="remotemysql.com",  # phpmyadmin/index.php?db=e7qIjyMgHh
+        database="e7qIjyMgHh",
+        user="e7qIjyMgHh",
+        password="ALKcxfmtTt"
+    )
+    globals()['mydb'] = mydb
+    request.cls.mydb = mydb
     yield
+    eyes.abort()
+    mydb.close()
     driver.quit()
 
 
@@ -54,7 +68,6 @@ def init_desktop(request):
 
     Manage_the_pages.initiate_desktop_page(driver)
     yield
-    eyes.abort()
     driver.quit()
 
 
@@ -76,6 +89,20 @@ def init_mobile(request):
     Manage_the_pages.initiate_mobile_pages(driver)
     yield
     driver.quit()
+
+
+@pytest.fixture(scope='class')
+def init_electron(request):
+    electron_app = "C:/automation/Electron API Demos-win32-ia32/Electron API Demos.exe"
+    electron_driver = "C:/automation/electrondriver.exe"
+    options = webdriver.ChromeOptions()
+    options.binary_location = electron_app
+    driver = webdriver.Chrome(chrome_options=options, executable_path=electron_driver)
+    globals()['driver'] = driver
+    request.cls.driver = driver
+    Manage_the_pages.initiate_electron_page(driver)
+
+    time.sleep(5)
 
 # yield
 #     driver.quit()

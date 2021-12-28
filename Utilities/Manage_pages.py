@@ -2,6 +2,7 @@ import allure
 
 from Extentions.Verify_actions import Verify
 from Pages.Desktop.calculator_page import CalculatorPage
+from Pages.Electron.electron_page import electronPage
 from Pages.Mobile.mobile_start_page import MobileStartPage
 from Pages.Mobile.tip_calculator_page import TipCalculatorPage
 from Pages.Web.create_new_user_page import NewUserPage
@@ -20,6 +21,10 @@ calculator_page = None
 # initiate mobile app pages
 mobile_home_page = None
 mobile_tip_page = None
+
+# initiate electron app pages
+electron_home_page = None
+
 
 
 class Manage_the_pages:
@@ -40,3 +45,8 @@ class Manage_the_pages:
     def initiate_mobile_pages(driver):
         globals()['mobile_home_page'] = MobileStartPage(driver)
         globals()['mobile_tip_page'] = TipCalculatorPage(driver)
+
+    @staticmethod
+    def initiate_electron_page(driver):
+        globals()['electron_home_page'] = electronPage(driver)
+
