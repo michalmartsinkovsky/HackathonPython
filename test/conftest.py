@@ -8,117 +8,110 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from Utilities.CommonOps import CommonOps
 from Utilities.Manage_pages import Manage_the_pages
-# from appium import webdriver
+
+
 
 driver = None
-#action = None
 browser = CommonOps.get_data("browser")
 eyes = None
 mydb = None
-# file_users = CommonOps.read_file("C:/HackathonPython/Utilities/users_list.csv")
-creating_users_for_web = None
+
+
+
 @pytest.fixture(scope='class')
 def init_web(request):
     match browser:
         case 'chrome':
             driver = webdriver.Chrome(ChromeDriverManager().install())
-
             driver.maximize_window()
-            driver.get("http://localhost:3000")
-
+            driver.get(CommonOps.get_data("url"))
             driver.implicitly_wait(10)
-
 
         case 'firefox':
             driver = webdriver.Firefox(GeckoDriverManager().install())
             driver.maximize_window()
-            driver.get("http://localhost:3000/signin")
+            driver.get(CommonOps.get_data("url"))
             driver.implicitly_wait(10)
         case _:
             raise Exception("no such browser")
     Manage_the_pages.initiate_web_pages(driver)
     globals()['driver'] = driver
-    # print(file_users)
-    # file_users = CommonOps.read_file("C:/HackathonPython/Utilities/users_list.csv")
-    # globals()['creating_users_for_web'] = file_users
-    # request.cls.my_user_list = file_users
     eyes = Eyes()
-    eyes.api_key = 'lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110'
+    eyes.api_key = CommonOps.get_data("api_key")
     globals()['eyes'] = eyes
-
-
 
     # initiate db
     mydb = mysql.connector.connect(
-        host="remotemysql.com",  # phpmyadmin/index.php?db=e7qIjyMgHh
-        database="e7qIjyMgHh",
-        user="e7qIjyMgHh",
-        password="ALKcxfmtTt"
+        host=CommonOps.get_data("hostDB"),
+        database=CommonOps.get_data("database"),
+        user=CommonOps.get_data("userDB"),
+        password=CommonOps.get_data("passwordDB")
     )
     globals()['mydb'] = mydb
     request.cls.mydb = mydb
     yield
-    eyes.abort()
-    mydb.close()
-    driver.quit()
+    close_web_session()
 
 
 @pytest.fixture(scope='class')
 def init_desktop(request):
     desired_caps = {}
-    desired_caps["app"] = "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
-    desired_caps["platformName"] = "Windows"
-    desired_caps["deviceName"] = "WindowsPC"
-    driver = webdriver.Remote("http://127.0.0.1:4723", desired_caps)
+    desired_caps["app"] = CommonOps.get_data("app")
+    desired_caps["platformName"] = CommonOps.get_data("platformName")
+    desired_caps["deviceName"] = CommonOps.get_data("deviceName")
+    driver = webdriver.Remote(CommonOps.get_data("desktopServer"), desired_caps)
     globals()['driver'] = driver
     request.cls.driver = driver
     globals()['driver'].implicitly_wait(5)
 
     Manage_the_pages.initiate_desktop_page(driver)
     yield
-    driver.quit()
+    close_session()
 
 
 @pytest.fixture(scope='class')
 def init_mobile(request):
-    reportDirectory = 'reports'
-    reportFormat = 'xml'
+    reportDirectory = CommonOps.get_data("reportDirectory")
+    reportFormat = CommonOps.get_data("reportFormat")
     dc = {}
-    testName = 'Untitled'
+    testName = CommonOps.get_data("testName")
     dc['reportDirectory'] = reportDirectory
     dc['reportFormat'] = reportFormat
     dc['testName'] = testName
     dc['udid'] = 'R58R34SLXBD'
+    dc['appPackage'] = 'com.financial.calculator'
+    dc['appActivity'] = '.FinancialCalculators'
     dc['platformName'] = 'android'
     driver = webdriver.Remote('http://localhost:4723/wd/hub', dc)
+
     globals()['driver'] = driver
     request.cls.driver = driver
     globals()['driver'].implicitly_wait(5)
     Manage_the_pages.initiate_mobile_pages(driver)
     yield
-    driver.quit()
+    close_session()
 
 
 @pytest.fixture(scope='class')
 def init_electron(request):
-    electron_app = "C:/automation/Electron API Demos-win32-ia32/Electron API Demos.exe"
-    electron_driver = "C:/automation/electrondriver.exe"
+    electron_app = CommonOps.get_data("electron_app")
+    electron_driver = CommonOps.get_data("electron_driver")
     options = webdriver.ChromeOptions()
     options.binary_location = electron_app
     driver = webdriver.Chrome(chrome_options=options, executable_path=electron_driver)
     globals()['driver'] = driver
     request.cls.driver = driver
     Manage_the_pages.initiate_electron_page(driver)
-
     time.sleep(5)
+    yield
+    close_session()
 
-# yield
-#     driver.quit()
-#
-# @pytest.fixture(scope='class')
-# def init_mobile(request):
-#     driver = get
-#     globals()['driver'] = driver
-#
-#     yield
-#     driver.quit()
+
+def close_session():
+    driver.quit()
+
+
+def close_web_session():
+    eyes.abort()
+    mydb.close()
+    driver.quit()

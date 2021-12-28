@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Environment>
+    <!-- web info -->
     <url>http://localhost:3000</url>
     <browser>chrome</browser>
+
+    <!-- applitools info-->
+    <api_key>lfzu5Nft9vRQZvVAoZLqY8vc3lJO1gUn99rW0NiWm1075I110</api_key>
+
+    <!-- DB info -->
+    <hostDB>remotemysql.com</hostDB>
+    <database>e7qIjyMgHh</database>
+    <userDB>e7qIjyMgHh</userDB>
+    <passwordDB>ALKcxfmtTt</passwordDB>
+
+    <!-- desktop info -->
+    <app>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</app>
+    <platformName>Windows</platformName>
+    <deviceName>WindowsPC</deviceName>
+    <desktopServer>http://127.0.0.1:4723</desktopServer>
+
+    <!-- mobile info -->
+    <reportDirectory>C:/HackathonPython/Mobile_reports</reportDirectory>
+    <reportFormat>xml</reportFormat>
+    <testName>Python Hackathon Report - checkTest.html</testName>
+    <udid>R58R34SLXBD</udid>
+    <appPackage>com.financial.calculator</appPackage>
+    <appActivity>.FinancialCalculators</appActivity>
+    <platformName>android</platformName>
+   <mobileServer>http://localhost:4723/wd/hub</mobileServer>
+
+    <!-- electron info -->
+    <electron_app>C:/automation/Electron API Demos-win32-ia32/Electron API Demos.exe</electron_app>
+    <electron_driver>C:/automation/electrondriver.exe</electron_driver>
+
+
+
+
 </Environment>

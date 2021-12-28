@@ -20,7 +20,7 @@ class Test_web:
     @pytest.mark.parametrize("first_name, last_name, user_name, password", file_users)
     @allure.title("This test is creating a new user in real world web site")
     @allure.description("check if new user was created")
-    def test_create_new_users_from_list(self, first_name, last_name, user_name, password):
+    def test_create_new_users_from_csv_list(self, first_name, last_name, user_name, password):
         Web_Flow.fill_signup_form(first_name, last_name, user_name, password)
 
     def test_create_new_user(self):
@@ -55,6 +55,6 @@ class Test_web:
         actual = UIActions.get_text(Utilities.Manage_pages.home_page.get_friends_title_txt())
         Verify.verify_equal(actual, "Contacts", "Error- friends title is incorrect")
 
-    # Expecting to fail
-    # def test_notification_menu(self):
-    #     Web_Flow.graphic_check("initializing", "Comparison")
+    #Expecting to fail
+    def test_notification_menu(self):
+        Web_Flow.graphic_check("initializing", "Comparison")
