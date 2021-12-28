@@ -24,7 +24,7 @@ class CommonOps:
 
 
     def get_data(node_name):
-        root = ET.parse("C:/HackathonPython/config.xml").getroot()
+        root = ET.parse("../config.xml").getroot()
         return root.find(".//" + node_name).text
 
 

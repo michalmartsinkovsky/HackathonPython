@@ -5,10 +5,9 @@ import pytest
 import Utilities
 from Extentions.UI_actions_web import UIActions
 from Extentions.Verify_actions import Verify
-from Utilities.CommonOps import CommonOps
+from Workflow import WF_web
 
 from Workflow.WF_web import Web_Flow
-import Workflow
 
 
 @pytest.mark.usefixtures('init_web')
@@ -43,6 +42,7 @@ class Test_web:
         Verify.verify_equal(actual, "Contacts", "Error- friends title is incorrect")
 
     def test_notification_menu(self):
+        Web_Flow.login_entry("Katharina_Bernier", "s3cret")
         Web_Flow.click_notification()
-        actual = UIActions.get_text(Utilities.Manage_pages.home_page.get_notification_title())
-        Verify.verify_equal(actual, "Notifications", "Error- notification title is incorrect")
+        time.sleep(2)
+        Web_Flow.graphic_check ("initializing")

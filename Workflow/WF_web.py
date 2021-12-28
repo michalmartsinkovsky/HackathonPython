@@ -1,9 +1,7 @@
-import time
-
 from Extentions.UI_actions_web import UIActions
 from Utilities.Manage_pages import Manage_the_pages
 import Utilities
-
+from test.conftest import eyes, driver
 
 
 class Web_Flow:
@@ -45,5 +43,13 @@ class Web_Flow:
     @staticmethod
     def click_logout():
         UIActions.click(Utilities.Manage_pages.home_page.get_logout_btn())
+
+    @staticmethod
+    def graphic_check(message):
+        eyes.open(driver, "Realworld app", "Notification title test")
+        eyes.check_window(message)
+        eyes.close()
+
+
 
 
