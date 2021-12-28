@@ -14,7 +14,7 @@ from Utilities.Manage_pages import Manage_the_pages
 from Utilities.listeners import EventListener
 
 driver = None
-#browser = CommonOps.get_data("browser")
+#browser_type = CommonOps.get_data("browser")
 eyes = None
 mydb = None
 
@@ -31,7 +31,7 @@ def init_web(request):
         driver = webdriver.Edge(EdgeChromiumDriverManager().install())
     else:
         raise Exception("Wrong browser type")
-    driver = EventFiringWebDriver(driver, EventListener())          # event listener
+   # driver = EventFiringWebDriver(driver, EventListener())          # event listener
     driver.get(CommonOps.get_data("url"))
     globals()['driver'] = driver
     eyes = Eyes()
