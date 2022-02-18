@@ -31,10 +31,7 @@ class Test_mobile:
     def test_insert_bill(self):
         Mobile_Flow.insert_bill_payment()
         actual = UIActions.get_text(Utilities.Manage_pages.mobile_tip_page.get_total_payment())
-        if actual == "1.15":
-            expected = "1.15"
-        elif actual == "115.00":
-            expected = "115.00"
+        expected = "115.00"
         Verify.verify_equal(actual, expected, "Error- the payment + 15% tax is different than expected")
 
     # before method
